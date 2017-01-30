@@ -1,9 +1,13 @@
 // plik scripts.js
 
 var name = prompt('Wpisz swoje imię');
-//komentarz
-
-// alert('Witaj, ' + name);
+alert('Witaj, ' + name);
 console.log('Witaj, ' + name);
 
-/* jakis komentarz */
+var a = 2,
+	h = 4,
+	triangleArea = a*h/2;
+
+console.log('Pole trójkąta o podstawie a: ' + a + ' i wysokości h: ' + h + ' wynosi: ' + triangleArea);	
+
+
